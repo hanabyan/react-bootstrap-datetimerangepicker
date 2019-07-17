@@ -10,6 +10,7 @@
 
 This date range picker component for Bootstrap creates a dropdown menu from which a user can select a range of dates.
 
+This package is a fork from [react-bootstrap-datetimerangepicker](https://www.npmjs.com/package/react-bootstrap-datetimerangepicker)
 Base on [bootstrap-daterangepicker](https://github.com/dangrossman/bootstrap-daterangepicker)
 
 Online demo: http://luqin.github.io/react-bootstrap-datetimerangepicker
@@ -113,6 +114,8 @@ For in depth documentation, see the original
 - **timePicker24Hour**: (boolean) Use 24-hour instead of 12-hour times, removing the AM/PM selection
 - **timePickerSeconds**: (boolean) Show seconds in the timePicker
 - **ranges**: (object) Set predefined date ranges the user can select from. Each key is the label for the range, and its value an array with two dates representing the bounds of the range
+- **showCustomRangeLabel**: (true/false) Displays "Custom Range" at the end of the list of predefined ranges, when the ranges option is used. This option will be highlighted whenever the current date range selection does not match one of the predefined ranges. Clicking it will display the calendars to select a new range.
+- **alwaysShowCalendars**: (true/false) Normally, if you use the ranges option to specify pre-defined date ranges, calendars for choosing a custom date range are not shown until the user clicks "Custom Range". When this option is set to true, the calendars for choosing a custom date range are always shown instead.
 - **opens**: (string: 'left'/'right'/'center') Whether the picker appears aligned to the left, to the right, or centered under the HTML element it's attached to
 - **drops**: (string: 'down' or 'up') Whether the picker appears below (default) or above the HTML element it's attached to
 - **buttonClasses**: (array) CSS class names that will be added to all buttons in the picker

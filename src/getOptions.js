@@ -1,6 +1,7 @@
 function getOptions() {
   return [
     '<input>',
+    'alwaysShowCalendars',
     'applyClass',
     'autoApply',
     'autoUpdateInput',
@@ -18,6 +19,7 @@ function getOptions() {
     'opens',
     'parentEl',
     'ranges',
+    'showCustomRangeLabel',
     'showDropdowns',
     'showWeekNumbers',
     'singleDatePicker',
