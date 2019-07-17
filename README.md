@@ -1,10 +1,11 @@
 # React Date&Time Range Picker for Bootstrap
 
-[![NPM version][npm-badge]][npm] [![Build Status][travis-ci-image]][travis-ci-url]
+[![npm version](https://badge.fury.io/js/%40hanabyan%2Freact-bootstrap-datetimerangepicker.svg)](https://badge.fury.io/js/%40hanabyan%2Freact-bootstrap-datetimerangepicker)
+<!--[![NPM version][npm-badge]][npm] [![Build Status][travis-ci-image]][travis-ci-url] -->
 
-[![Dependency Status][deps-badge]][deps]
+<!-- [![Dependency Status][deps-badge]][deps]
 [![devDependency Status][dev-deps-badge]][dev-deps]
-[![peerDependency Status][peer-deps-badge]][peer-deps]
+[![peerDependency Status][peer-deps-badge]][peer-deps] -->
 
 ![Improvely.com](http://i.imgur.com/LbAMf3D.png)
 
@@ -33,10 +34,10 @@ Using official `bootstrap-daterangepicker`
 
 ```sh
 # <2.0
-npm install react-bootstrap-datetimerangepicker onefe-bootstrap-daterangepicker --save
+npm install @hanabyan/react-bootstrap-datetimerangepicker onefe-bootstrap-daterangepicker --save
 
 # 2.x
-npm install react-bootstrap-datetimerangepicker bootstrap-daterangepicker --save
+npm install @hanabyan/react-bootstrap-datetimerangepicker bootstrap-daterangepicker --save
 ```
 
 ```js
@@ -168,8 +169,8 @@ var SomeReactComponent = React.createClass({
 * Install the dependencies with `npm install`
 * Run the docs site in development mode with `npm start`. This will watch for file changes as you work. And auto refresh the page to see the updates.
 
-[npm-badge]: http://badge.fury.io/js/react-bootstrap-datetimerangepicker.svg
-[npm]: https://www.npmjs.com/package/react-bootstrap-datetimerangepicker
+[npm-badge]: https://badge.fury.io/js/%40hanabyan%2Freact-bootstrap-datetimerangepicker.svg
+[npm]: https://www.npmjs.com/package/@hanabyan/react-bootstrap-datetimerangepicker
 
 [deps-badge]: https://david-dm.org/luqin/react-bootstrap-datetimerangepicker.svg
 [deps]: https://david-dm.org/luqin/react-bootstrap-datetimerangepicker
